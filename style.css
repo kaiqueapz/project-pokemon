@@ -1,0 +1,127 @@
+body{
+    background-color: #181A3D;
+}
+
+.pokemon-logo{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container-base{
+    margin: 0 auto;
+    padding: 100px;
+    width: 150px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.pokemon-color-base{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 78px;
+    width: 111px;
+    height: 5px;
+    background-color: #004AAD;
+ 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 259px;
+    z-index: 1;
+
+}
+
+.pokemon-color{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 118px;
+    width: 10px;
+    height: 31px;
+    background-color: #004AAD;
+    display: flex;
+    justify-content: center;
+    border-radius: 94px;
+    position: absolute;
+    bottom: 155px;
+    transform: rotate(90deg);
+    z-index: 0;
+
+}
+
+.poke1{
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 190px;
+   
+    
+}
+
+h1{
+    margin: 0 auto;
+    position: absolute;
+    top: 278px;
+    margin-left: 9px;
+    z-index: 3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.type-pokemon{
+    z-index: 4;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 340px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 45px;
+    margin-top: 560px;
+}
+
+#btnLeft{
+    width: 90px;
+    height: 40px;
+    background-color: #878ABD;
+    border: 1px solid #878ABD;
+    color: white;
+    border-radius: 20px;
+}
+
+#btnRight{
+    width: 90px;
+    height: 40px;
+    background-color: #878ABD;
+    border: 1px solid #878ABD;
+    color: white;
+    border-radius: 20px;
+}
+
+#btnChoose{
+    width: 90px;
+    height: 40px;
+    background-color: #0f8a21;
+    border: 1px solid #0f8a21;
+    color: white;
+    border-radius: 20px;
+    margin-top: 60px;
+}
