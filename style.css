@@ -1,22 +1,29 @@
 body{
     background-color: #181A3D;
+    height: 100vh;
 }
 
 .pokemon-logo{
     margin: 0 auto;
-    width: 100px;
+    width: 130px;
     height: 100px;
-    margin-bottom: 10px;
     display: flex;
     justify-content: center;
 }
 
+#pokemons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 
+}
 
 .container-base{
     margin: 0 auto;
     padding: 100px;
-    width: 150px;
+    width: 40%;
+    max-width: 500px;
     height: 220px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -95,25 +102,28 @@ h1{
     margin: 0 auto;
     margin-top: 20px;
     gap: 45px;
-    margin-top: 560px;
+    margin-top: 500px;
+   
 }
 
 #btnLeft{
-    width: 90px;
+    width: 40px;
     height: 40px;
     background-color: #878ABD;
     border: 1px solid #878ABD;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 #btnRight{
-    width: 90px;
+    width: 40px;
     height: 40px;
     background-color: #878ABD;
     border: 1px solid #878ABD;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 #btnChoose{
@@ -123,5 +133,5 @@ h1{
     border: 1px solid #0f8a21;
     color: white;
     border-radius: 20px;
-    margin-top: 60px;
+    cursor: pointer;
 }
